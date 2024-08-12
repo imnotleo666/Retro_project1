@@ -28,3 +28,14 @@
 	at async T.getBranchBase (/home/nvidia/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:1020363)
 	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/nvidia/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:948043)
 	at async t.GitHistoryProvider.onDidRunGitStatus (/home/nvidia/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:941421)
+2024-08-12 09:58:42.469 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2024-08-12 09:58:43.772 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2024-08-12 09:58:48.734 [error] Error: No such branch: master.
+	at N.getBranch (/home/nvidia/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:936645)
+	at async T.retryRun (/home/nvidia/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:1032124)
+	at async T.run (/home/nvidia/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:1031728)
+	at async T.getBranch (/home/nvidia/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:1020077)
+	at async T.getBranchBase (/home/nvidia/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:1020363)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/nvidia/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:948043)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/nvidia/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/main.js:2:941421)
+2024-08-12 09:59:34.919 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
