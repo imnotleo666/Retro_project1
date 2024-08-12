@@ -1,0 +1,33 @@
+2024-08-12 09:43:36.843 [info] (Client) Pylance async client (2024.8.1) started with python extension (2024.12.2)
+2024-08-12 09:43:42.671 [info] [Info  - 9:43:42 AM] (25121) Server root directory: file:///home/nvidia/.vscode-server/extensions/ms-python.vscode-pylance-2024.8.1/dist
+2024-08-12 09:43:42.672 [info] [Info  - 9:43:42 AM] (25121) Experimental Pylance language server 2024.8.1 (pyright version 1.1.373, commit ee424479) starting
+2024-08-12 09:43:42.673 [info] [Info  - 9:43:42 AM] (25121) Starting service instance "nvidia"
+2024-08-12 09:43:42.844 [info] [Info  - 9:43:42 AM] (25121) Setting pythonPath for service "nvidia": "/usr/bin/python3"
+2024-08-12 09:43:42.844 [info] [Info  - 9:43:42 AM] (25121) Setting environmentName for service "nvidia": "3.6.9 (global)"
+2024-08-12 09:43:42.846 [info] [Info  - 9:43:42 AM] (25121) No include entries specified; assuming /home/nvidia
+2024-08-12 09:43:42.848 [info] [Info  - 9:43:42 AM] (25121) Auto-excluding **/node_modules
+2024-08-12 09:43:42.851 [info] [Info  - 9:43:42 AM] (25121) Auto-excluding **/__pycache__
+2024-08-12 09:43:42.851 [info] [Info  - 9:43:42 AM] (25121) Auto-excluding **/.*
+2024-08-12 09:43:42.974 [info] [Info  - 9:43:42 AM] (25121) Assuming Python version 3.6.9.final.0
+2024-08-12 09:43:43.878 [info] [Info  - 9:43:43 AM] (25121) Found 196 source files
+2024-08-12 09:43:45.287 [info] [Info  - 9:43:45 AM] (25121) Background analysis(1) root directory: file:///home/nvidia/.vscode-server/extensions/ms-python.vscode-pylance-2024.8.1/dist
+2024-08-12 09:43:45.288 [info] [Info  - 9:43:45 AM] (25121) Background analysis(1) started
+2024-08-12 09:43:46.240 [info] [Info  - 9:43:46 AM] (25121) Indexer background runner(2) root directory: file:///home/nvidia/.vscode-server/extensions/ms-python.vscode-pylance-2024.8.1/dist (index)
+2024-08-12 09:43:46.242 [info] [Info  - 9:43:46 AM] (25121) Indexing(2) started
+2024-08-12 09:43:49.686 [info] [Info  - 9:43:49 AM] (25121) Found 196 source files
+2024-08-12 09:43:49.731 [info] [Info  - 9:43:49 AM] (25121) [IDX(2)] Long operation: scan packages file:///home/nvidia (2618ms)
+2024-08-12 09:43:49.731 [info] [Info  - 9:43:49 AM] (25121) scanned(2) 193 files over 1 exec env
+2024-08-12 09:43:54.737 [info] [Info  - 9:43:54 AM] (25121) Found 195 source files
+2024-08-12 09:43:54.762 [info] [Info  - 9:43:54 AM] (25121) [IDX(2)] Long operation: indexing: file:///home/nvidia/.vscode-server/extensions/ms-python.vscode-pylance-2024.8.1/dist/typeshed-fallback/stubs/networkx/networkx/__init__.pyi (2424ms)
+2024-08-12 09:44:03.289 [info] [Info  - 9:44:03 AM] (25121) [IDX(2)] Long operation: indexing: file:///usr/lib/python3.6/concurrent/__init__.py (6796ms)
+2024-08-12 09:44:03.419 [info] [Info  - 9:44:03 AM] (25121) [BG(1)] Long operation: parsing: file:///home/nvidia/jetson-inference/utils/python/python/Jetson/__init__.py (5717ms)
+2024-08-12 09:44:03.420 [info] [Info  - 9:44:03 AM] (25121) [BG(1)] Long operation: indexing: file:///home/nvidia/jetson-inference/utils/python/python/Jetson/__init__.py (5719ms)
+2024-08-12 09:44:19.335 [info] [Info  - 9:44:19 AM] (25121) [IDX(2)] Long operation: parsing: file:///usr/lib/python3/dist-packages/numpy/lib/polynomial.py (2531ms)
+2024-08-12 09:44:21.229 [info] [Info  - 9:44:21 AM] (25121) [IDX(2)] Long operation: binding: file:///usr/lib/python3/dist-packages/numpy/lib/__init__.py (8798ms)
+2024-08-12 09:44:21.246 [info] [Info  - 9:44:21 AM] (25121) [IDX(2)] Long operation: binding: file:///usr/lib/python3/dist-packages/numpy/__init__.py (9785ms)
+2024-08-12 09:44:21.368 [info] [Info  - 9:44:21 AM] (25121) [IDX(2)] Long operation: indexing: file:///usr/lib/python3/dist-packages/numpy/__init__.py (9968ms)
+2024-08-12 09:44:24.105 [info] [Info  - 9:44:24 AM] (25121) [IDX(2)] Long operation: index execution environment file:///home/nvidia (33639ms)
+2024-08-12 09:44:24.142 [info] [Info  - 9:44:24 AM] (25121) [IDX(2)] Long operation: index packages file:///home/nvidia (33718ms)
+2024-08-12 09:44:24.142 [info] [Info  - 9:44:24 AM] (25121) indexed(2) 114 files over 1 exec env
+2024-08-12 09:44:24.354 [info] [Info  - 9:44:24 AM] (25121) Indexing finished(2).
+2024-08-12 09:46:05.152 [info] [Info  - 9:46:05 AM] (25121) Found 196 source files

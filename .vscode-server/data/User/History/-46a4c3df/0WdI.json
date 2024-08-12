@@ -1,0 +1,6 @@
+{
+    "remote.SSH.configFile": "C:\\.ssh\\config",
+    "remote.SSH.remotePlatform": {
+        "192.168.137.134": "linux"
+    }
+}

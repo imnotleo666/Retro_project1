@@ -1,0 +1,88 @@
+2024-08-09 09:44:26.944 [info] 
+
+
+
+
+2024-08-09 09:44:26.983 [info] Extension host agent started.
+2024-08-09 09:44:27.128 [info] [<unknown>][d73a996d][ExtensionHostConnection] New connection established.
+2024-08-09 09:44:27.153 [info] [<unknown>][f519ed67][ManagementConnection] New connection established.
+2024-08-09 09:44:27.512 [info] [<unknown>][d73a996d][ExtensionHostConnection] <6597> Launched Extension Host Process.
+2024-08-09 09:44:30.013 [error] CodeExpectedError: Could not find pty on pty host
+    at k.U (/home/nvidia/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/platform/terminal/node/ptyHostMain.js:54:30837)
+    at k.updateIcon (/home/nvidia/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/platform/terminal/node/ptyHostMain.js:54:26087)
+    at D.<computed> (/home/nvidia/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/platform/terminal/node/ptyHostMain.js:54:21308)
+    at Object.call (/home/nvidia/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/platform/terminal/node/ptyHostMain.js:36:5378)
+    at c.s (/home/nvidia/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/platform/terminal/node/ptyHostMain.js:34:5506)
+    at c.q (/home/nvidia/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4947)
+    at w.value (/home/nvidia/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4247)
+    at i.B (/home/nvidia/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/platform/terminal/node/ptyHostMain.js:30:741)
+    at i.fire (/home/nvidia/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/platform/terminal/node/ptyHostMain.js:30:958)
+    at process.$e (/home/nvidia/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/platform/terminal/node/ptyHostMain.js:25:27395)
+    at process.emit (node:events:519:28)
+    at emit (node:internal/child_process:951:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-08-09 09:44:30.066 [error] CodeExpectedError: Could not find pty on pty host
+    at k.U (/home/nvidia/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/platform/terminal/node/ptyHostMain.js:54:30837)
+    at k.updateTitle (/home/nvidia/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/platform/terminal/node/ptyHostMain.js:54:26037)
+    at D.<computed> (/home/nvidia/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/platform/terminal/node/ptyHostMain.js:54:21308)
+    at Object.call (/home/nvidia/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/platform/terminal/node/ptyHostMain.js:36:5378)
+    at c.s (/home/nvidia/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/platform/terminal/node/ptyHostMain.js:34:5506)
+    at c.q (/home/nvidia/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4947)
+    at w.value (/home/nvidia/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4247)
+    at i.B (/home/nvidia/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/platform/terminal/node/ptyHostMain.js:30:741)
+    at i.fire (/home/nvidia/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/platform/terminal/node/ptyHostMain.js:30:958)
+    at process.$e (/home/nvidia/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/platform/terminal/node/ptyHostMain.js:25:27395)
+    at process.emit (node:events:519:28)
+    at emit (node:internal/child_process:951:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-08-09 09:45:54.877 [info] [<unknown>][f519ed67][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-08-09 09:46:04.227 [info] [<unknown>][d156e07e][ExtensionHostConnection] New connection established.
+2024-08-09 09:46:04.229 [info] [<unknown>][8e485e7c][ManagementConnection] New connection established.
+2024-08-09 09:46:04.239 [info] [<unknown>][d156e07e][ExtensionHostConnection] <6737> Launched Extension Host Process.
+2024-08-09 09:46:06.298 [error] CodeExpectedError: Could not find pty on pty host
+    at k.U (/home/nvidia/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/platform/terminal/node/ptyHostMain.js:54:30837)
+    at k.updateTitle (/home/nvidia/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/platform/terminal/node/ptyHostMain.js:54:26037)
+    at D.<computed> (/home/nvidia/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/platform/terminal/node/ptyHostMain.js:54:21308)
+    at Object.call (/home/nvidia/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/platform/terminal/node/ptyHostMain.js:36:5378)
+    at c.s (/home/nvidia/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/platform/terminal/node/ptyHostMain.js:34:5506)
+    at c.q (/home/nvidia/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4947)
+    at w.value (/home/nvidia/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4247)
+    at i.B (/home/nvidia/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/platform/terminal/node/ptyHostMain.js:30:741)
+    at i.fire (/home/nvidia/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/platform/terminal/node/ptyHostMain.js:30:958)
+    at process.$e (/home/nvidia/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/platform/terminal/node/ptyHostMain.js:25:27395)
+    at process.emit (node:events:519:28)
+    at emit (node:internal/child_process:951:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-08-09 09:49:26.988 [info] New EH opened, aborting shutdown
+2024-08-09 09:49:26.993 [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/nvidia/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/server/node/server.main.js:190:6369)
+    at process.emit (node:events:531:35)
+2024-08-09 09:51:04.420 [info] [<unknown>][d73a996d][ExtensionHostConnection] <6597> Extension Host Process exited with code: 0, signal: null.
+2024-08-09 11:22:32.016 [info] [<unknown>][8e485e7c][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-08-09 11:23:47.077 [info] [<unknown>][4d2a1ba1][ExtensionHostConnection] New connection established.
+2024-08-09 11:23:47.081 [info] [<unknown>][a87a8729][ManagementConnection] New connection established.
+2024-08-09 11:23:47.122 [info] [<unknown>][4d2a1ba1][ExtensionHostConnection] <13067> Launched Extension Host Process.
+2024-08-09 11:23:53.279 [info] [<unknown>][a87a8729][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-08-09 11:24:03.106 [info] [<unknown>][4802160c][ExtensionHostConnection] New connection established.
+2024-08-09 11:24:03.116 [info] [<unknown>][4802160c][ExtensionHostConnection] <13202> Launched Extension Host Process.
+2024-08-09 11:24:03.119 [info] [<unknown>][ea5b1475][ManagementConnection] New connection established.
+2024-08-09 11:24:05.202 [error] CodeExpectedError: Could not find pty on pty host
+    at k.U (/home/nvidia/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/platform/terminal/node/ptyHostMain.js:54:30837)
+    at k.updateTitle (/home/nvidia/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/platform/terminal/node/ptyHostMain.js:54:26037)
+    at D.<computed> (/home/nvidia/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/platform/terminal/node/ptyHostMain.js:54:21308)
+    at Object.call (/home/nvidia/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/platform/terminal/node/ptyHostMain.js:36:5378)
+    at c.s (/home/nvidia/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/platform/terminal/node/ptyHostMain.js:34:5506)
+    at c.q (/home/nvidia/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4947)
+    at w.value (/home/nvidia/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4247)
+    at i.B (/home/nvidia/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/platform/terminal/node/ptyHostMain.js:30:741)
+    at i.fire (/home/nvidia/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/platform/terminal/node/ptyHostMain.js:30:958)
+    at process.$e (/home/nvidia/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/out/vs/platform/terminal/node/ptyHostMain.js:25:27395)
+    at process.emit (node:events:519:28)
+    at emit (node:internal/child_process:951:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-08-09 11:28:47.379 [info] [<unknown>][d156e07e][ExtensionHostConnection] <6737> Extension Host Process exited with code: 0, signal: null.
+2024-08-09 11:29:03.373 [info] [<unknown>][4d2a1ba1][ExtensionHostConnection] <13067> Extension Host Process exited with code: 0, signal: null.
+2024-08-09 14:44:31.790 [info] [<unknown>][ea5b1475][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-08-09 17:44:47.802 [info] [<unknown>][4802160c][ExtensionHostConnection] <13202> Extension Host Process exited with code: 0, signal: null.
+2024-08-09 17:44:47.803 [info] Last EH closed, waiting before shutting down
+2024-08-09 17:49:47.812 [info] Last EH closed, shutting down

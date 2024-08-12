@@ -1,0 +1,115 @@
+2024-08-12 09:43:31.830 [info] Experiment 'pythonaa' is active
+2024-08-12 09:43:31.830 [info] Experiment 'pythonCreateEnvOnPipInstall' is active
+2024-08-12 09:43:31.830 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2024-08-12 09:43:31.830 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2024-08-12 09:43:31.830 [info] Experiment 'pythonTestAdapter' is active
+2024-08-12 09:43:31.906 [error] Reading directory to watch failed [Error: ENOENT: no such file or directory, scandir '/home/nvidia/.pixi/envs'
+	at Object.readdirSync (node:fs:1509:26)
+	at /home/nvidia/.vscode-server/extensions/ms-python.python-2024.12.2-linux-arm64/out/client/extension.js:2:586747
+	at /home/nvidia/.vscode-server/extensions/ms-python.python-2024.12.2-linux-arm64/out/client/extension.js:2:586938
+	at Array.map (<anonymous>)
+	at d.initWatchers (/home/nvidia/.vscode-server/extensions/ms-python.python-2024.12.2-linux-arm64/out/client/extension.js:2:586656)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async d.ensureWatchersReady (/home/nvidia/.vscode-server/extensions/ms-python.python-2024.12.2-linux-arm64/out/client/extension.js:2:543067)] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/home/nvidia/.pixi/envs'
+}
+2024-08-12 09:43:31.908 [error] Dir "/home/nvidia/.pixi/envs" is not watchable (directory does not exist)
+2024-08-12 09:43:32.201 [info] Default formatter is set to null for workspace /home/nvidia
+2024-08-12 09:43:32.236 [info] Starting Environment refresh
+2024-08-12 09:43:32.236 [info] Searching for interpreters in posix paths locator
+2024-08-12 09:43:32.256 [info] Searching for pyenv environments
+2024-08-12 09:43:32.256 [info] Searching for conda environments
+2024-08-12 09:43:32.257 [info] Searching for global virtual environments
+2024-08-12 09:43:32.258 [info] Searching for custom virtual environments
+2024-08-12 09:43:33.683 [info] pyenv is not installed
+2024-08-12 09:43:33.683 [info] Finished searching for pyenv environments: 1443 milliseconds
+2024-08-12 09:43:33.684 [info] Finished searching for custom virtual envs: 1442 milliseconds
+2024-08-12 09:43:33.702 [info] > conda info --json
+2024-08-12 09:43:33.719 [info] > pixi --version
+2024-08-12 09:43:33.720 [error] [Error: spawn pixi ENOENT
+	at ChildProcess._handle.onexit (node:internal/child_process:286:19)
+	at onErrorNT (node:internal/child_process:484:16)
+	at process.processTicksAndRejections (node:internal/process/task_queues:82:21)] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'spawn pixi',
+  path: 'pixi',
+  spawnargs: [ '--version' ]
+}
+2024-08-12 09:43:33.731 [info] > hatch env show --json
+2024-08-12 09:43:33.731 [info] cwd: .
+2024-08-12 09:43:33.854 [info] > pyenv which python
+2024-08-12 09:43:33.854 [info] cwd: .
+2024-08-12 09:43:33.854 [info] Finished searching for global virtual envs: 1612 milliseconds
+2024-08-12 09:43:33.908 [info] Found: /usr/bin/python --> /usr/bin/python2.7
+2024-08-12 09:43:33.914 [info] Found: /usr/bin/python2 --> /usr/bin/python2.7
+2024-08-12 09:43:33.914 [info] Found: /usr/bin/python2.7 --> /usr/bin/python2.7
+2024-08-12 09:43:33.917 [info] Found: /usr/bin/python3 --> /usr/bin/python3.6
+2024-08-12 09:43:33.919 [info] Found: /usr/bin/python3.6 --> /usr/bin/python3.6
+2024-08-12 09:43:33.925 [info] Found: /usr/include/python3.6 --> /usr/include/python3.6m
+2024-08-12 09:43:33.975 [info] > /usr/bin/python -I ./.vscode-server/extensions/ms-python.python-2024.12.2-linux-arm64/python_files/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2024.12.2-linux-arm64/python_files/interpreterInfo.py
+2024-08-12 09:43:33.986 [warning] [Error: Command failed: /usr/bin/python -I /home/nvidia/.vscode-server/extensions/ms-python.python-2024.12.2-linux-arm64/python_files/get_output_via_markers.py /home/nvidia/.vscode-server/extensions/ms-python.python-2024.12.2-linux-arm64/python_files/interpreterInfo.py
+Unknown option: -I
+usage: /usr/bin/python [option] ... [-c cmd | -m mod | file | -] [arg] ...
+Try `python -h' for more information.
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:423:12)
+	at ChildProcess.emit (node:events:531:35)
+	at maybeClose (node:internal/child_process:1105:16)
+	at Socket.<anonymous> (node:internal/child_process:457:11)
+	at Socket.emit (node:events:519:28)
+	at Pipe.<anonymous> (node:net:338:12)] {
+  code: 2,
+  killed: false,
+  signal: null,
+  cmd: '/usr/bin/python -I /home/nvidia/.vscode-server/extensions/ms-python.python-2024.12.2-linux-arm64/python_files/get_output_via_markers.py /home/nvidia/.vscode-server/extensions/ms-python.python-2024.12.2-linux-arm64/python_files/interpreterInfo.py'
+}
+2024-08-12 09:43:33.986 [error] Support for Python 2.7 has been dropped by the Python extension so certain features may not work, upgrade to using Python 3.
+2024-08-12 09:43:33.997 [info] > /usr/bin/python ./.vscode-server/extensions/ms-python.python-2024.12.2-linux-arm64/python_files/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2024.12.2-linux-arm64/python_files/interpreterInfo.py
+2024-08-12 09:43:34.029 [info] Finished searching for interpreters in posix paths locator: 1788 milliseconds
+2024-08-12 09:43:34.029 [info] > /usr/bin/python3 -I ./.vscode-server/extensions/ms-python.python-2024.12.2-linux-arm64/python_files/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2024.12.2-linux-arm64/python_files/interpreterInfo.py
+2024-08-12 09:43:34.050 [info] > /usr/include/python3.6 -I ./.vscode-server/extensions/ms-python.python-2024.12.2-linux-arm64/python_files/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2024.12.2-linux-arm64/python_files/interpreterInfo.py
+2024-08-12 09:43:34.055 [error] [Error: Command failed: /usr/include/python3.6 -I /home/nvidia/.vscode-server/extensions/ms-python.python-2024.12.2-linux-arm64/python_files/get_output_via_markers.py /home/nvidia/.vscode-server/extensions/ms-python.python-2024.12.2-linux-arm64/python_files/interpreterInfo.py
+/bin/sh: 1: /usr/include/python3.6: Permission denied
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:423:12)
+	at ChildProcess.emit (node:events:531:35)
+	at maybeClose (node:internal/child_process:1105:16)
+	at Socket.<anonymous> (node:internal/child_process:457:11)
+	at Socket.emit (node:events:519:28)
+	at Pipe.<anonymous> (node:net:338:12)] {
+  code: 126,
+  killed: false,
+  signal: null,
+  cmd: '/usr/include/python3.6 -I /home/nvidia/.vscode-server/extensions/ms-python.python-2024.12.2-linux-arm64/python_files/get_output_via_markers.py /home/nvidia/.vscode-server/extensions/ms-python.python-2024.12.2-linux-arm64/python_files/interpreterInfo.py'
+}
+2024-08-12 09:43:34.930 [info] Environments refresh paths discovered (event): 2702 milliseconds
+2024-08-12 09:43:34.930 [info] Environments refresh paths discovered: 2702 milliseconds
+2024-08-12 09:43:36.067 [info] > /usr/include/python3.6 -I ./.vscode-server/extensions/ms-python.python-2024.12.2-linux-arm64/python_files/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2024.12.2-linux-arm64/python_files/interpreterInfo.py
+2024-08-12 09:43:36.070 [error] [Error: Command failed: /usr/include/python3.6 -I /home/nvidia/.vscode-server/extensions/ms-python.python-2024.12.2-linux-arm64/python_files/get_output_via_markers.py /home/nvidia/.vscode-server/extensions/ms-python.python-2024.12.2-linux-arm64/python_files/interpreterInfo.py
+/bin/sh: 1: /usr/include/python3.6: Permission denied
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:423:12)
+	at ChildProcess.emit (node:events:531:35)
+	at maybeClose (node:internal/child_process:1105:16)
+	at ChildProcess._handle.onexit (node:internal/child_process:305:5)] {
+  code: 126,
+  killed: false,
+  signal: null,
+  cmd: '/usr/include/python3.6 -I /home/nvidia/.vscode-server/extensions/ms-python.python-2024.12.2-linux-arm64/python_files/get_output_via_markers.py /home/nvidia/.vscode-server/extensions/ms-python.python-2024.12.2-linux-arm64/python_files/interpreterInfo.py'
+}
+2024-08-12 09:43:36.070 [info] Environments refresh finished (event): 3842 milliseconds
+2024-08-12 09:43:36.104 [info] Environment refresh took 3874 milliseconds
+2024-08-12 09:43:36.114 [warning] could not find a pixi interpreter for the interpreter at /usr/bin/python3
+2024-08-12 09:43:36.135 [info] Python interpreter path: /usr/bin/python3
+2024-08-12 09:43:36.214 [warning] could not find a pixi interpreter for the interpreter at /usr/bin/python3
+2024-08-12 09:43:42.736 [info] Starting Pylance language server.

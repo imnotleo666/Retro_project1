@@ -1,0 +1,33 @@
+2024-08-12 09:21:18.377 [info] 
+
+
+
+
+2024-08-12 09:21:18.418 [info] Extension host agent started.
+2024-08-12 09:21:18.582 [info] [<unknown>][7f98168f][ManagementConnection] New connection established.
+2024-08-12 09:21:18.595 [info] [<unknown>][a6abca21][ExtensionHostConnection] New connection established.
+2024-08-12 09:21:18.924 [info] [<unknown>][a6abca21][ExtensionHostConnection] <24515> Launched Extension Host Process.
+2024-08-12 09:21:24.726 [error] No ptyHost response to createProcess after 5 seconds
+2024-08-12 09:21:25.958 [error] No ptyHost response to createProcess after 5 seconds
+2024-08-12 09:21:25.959 [error] No ptyHost response to createProcess after 5 seconds
+2024-08-12 09:21:25.959 [error] No ptyHost response to createProcess after 5 seconds
+2024-08-12 09:26:18.420 [info] New EH opened, aborting shutdown
+2024-08-12 09:41:10.054 [info] Getting Manifest... ms-python.python
+2024-08-12 09:41:10.164 [info] Installing extension: ms-python.python {"isMachineScoped":false,"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/home/nvidia/.vscode-server/extensions/extensions.json","external":"file:///home/nvidia/.vscode-server/extensions/extensions.json","path":"/home/nvidia/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.92.1","date":"2024-08-07T20:16:39.455Z"}}
+2024-08-12 09:41:10.665 [info] Getting Manifest... ms-python.vscode-pylance
+2024-08-12 09:41:10.714 [info] Getting Manifest... ms-python.debugpy
+2024-08-12 09:41:10.773 [info] Installing extension: ms-python.vscode-pylance {"isMachineScoped":false,"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/home/nvidia/.vscode-server/extensions/extensions.json","external":"file:///home/nvidia/.vscode-server/extensions/extensions.json","path":"/home/nvidia/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.92.1","date":"2024-08-07T20:16:39.455Z"},"context":{"dependecyOrPackExtensionInstall":true}}
+2024-08-12 09:41:10.775 [info] Installing extension: ms-python.debugpy {"isMachineScoped":false,"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/home/nvidia/.vscode-server/extensions/extensions.json","external":"file:///home/nvidia/.vscode-server/extensions/extensions.json","path":"/home/nvidia/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.92.1","date":"2024-08-07T20:16:39.455Z"},"context":{"dependecyOrPackExtensionInstall":true}}
+2024-08-12 09:41:31.854 [info] Extension signature verification result for ms-python.debugpy: Success. Executed: true. Duration: 4196ms.
+2024-08-12 09:41:31.881 [info] Extension signature verification result for ms-python.python: Success. Executed: true. Duration: 4274ms.
+2024-08-12 09:41:33.748 [info] Extension signature verification result for ms-python.vscode-pylance: Success. Executed: true. Duration: 4426ms.
+2024-08-12 09:41:35.255 [info] Extracted extension to file:///home/nvidia/.vscode-server/extensions/ms-python.debugpy-2024.10.0-linux-arm64: ms-python.debugpy
+2024-08-12 09:41:37.247 [info] Renamed to /home/nvidia/.vscode-server/extensions/ms-python.debugpy-2024.10.0-linux-arm64
+2024-08-12 09:41:40.515 [info] Extracted extension to file:///home/nvidia/.vscode-server/extensions/ms-python.python-2024.12.2-linux-arm64: ms-python.python
+2024-08-12 09:41:50.220 [warning] No ptyHost heartbeat after 6 seconds
+2024-08-12 09:41:53.760 [info] Renamed to /home/nvidia/.vscode-server/extensions/ms-python.python-2024.12.2-linux-arm64
+2024-08-12 09:42:01.610 [info] Extracted extension to file:///home/nvidia/.vscode-server/extensions/ms-python.vscode-pylance-2024.8.1: ms-python.vscode-pylance
+2024-08-12 09:42:52.349 [info] Renamed to /home/nvidia/.vscode-server/extensions/ms-python.vscode-pylance-2024.8.1
+2024-08-12 09:43:30.521 [info] Extension installed successfully: ms-python.debugpy file:///home/nvidia/.vscode-server/extensions/extensions.json
+2024-08-12 09:43:30.522 [info] Extension installed successfully: ms-python.python file:///home/nvidia/.vscode-server/extensions/extensions.json
+2024-08-12 09:43:30.522 [info] Extension installed successfully: ms-python.vscode-pylance file:///home/nvidia/.vscode-server/extensions/extensions.json

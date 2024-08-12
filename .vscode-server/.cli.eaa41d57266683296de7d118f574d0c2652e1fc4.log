@@ -1,0 +1,6 @@
+Listening on 127.0.0.1:44793
+[2024-08-12 09:21:17] info Disposed of connection to running server.
+looking for token 61157b63-7d7a-406d-abd5-3a14b8639f83, got Some("61157b63-7d7a-406d-abd5-3a14b8639f83")
+[2024-08-12 09:21:17] info Checking /home/nvidia/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/log.txt and /home/nvidia/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/pid.txt for a running server...
+[2024-08-12 09:21:17] info Starting server...
+[2024-08-12 09:21:17] info Server started

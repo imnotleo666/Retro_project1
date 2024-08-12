@@ -1,0 +1,7 @@
+# HSTS 1.0 Known Hosts database for GNU Wget.
+# Edit at your own risk.
+# <hostname>	<port>	<incl. subdomains>	<created>	<max-age>
+update.code.visualstudio.com	0	1	1723221836	31536000
+nvidia.app.box.com	0	0	1723225200	31536000
+nvidia.box.com	0	0	1723225199	31536000
+public.boxcloud.com	0	0	1723225200	31536000

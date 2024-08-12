@@ -1,0 +1,5 @@
+2024-08-09 09:47:08.602 [info] Extension host with pid 6737 started
+2024-08-09 09:47:09.263 [info] Lock '/home/nvidia/.vscode-server/data/User/workspaceStorage/99759646b79699e7711276408d9d39e6/vscode.lock': Lock acquired.
+2024-08-09 11:28:47.354 [info] Extension host terminating: renderer disconnected for too long (2)
+2024-08-09 11:28:47.360 [info] Lock '/home/nvidia/.vscode-server/data/User/workspaceStorage/99759646b79699e7711276408d9d39e6/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2024-08-09 11:28:47.364 [info] Extension host with pid 6737 exiting with code 0
